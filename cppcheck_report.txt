@@ -1,7 +1,7 @@
-3_Implementation/Test/test_game.c:87:5: style:inconclusive: Statements following return, break, continue, goto or throw will never be executed. [unreachableCode]
+3_Implementation/Test/test_game.c:86:5: style:inconclusive: Statements following return, break, continue, goto or throw will never be executed. [unreachableCode]
     TEST_ASSERT_EQUAL_INT8(0,i == 1);
     ^
-3_Implementation/Test/test_game.c:26:10: style: The scope of the variable 'mark' can be reduced. [variableScope]
+3_Implementation/Test/test_game.c:25:10: style: The scope of the variable 'mark' can be reduced. [variableScope]
     char mark;
          ^
 3_Implementation/Unity/unity.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 42 configurations. Use --force to check all configurations. [toomanyconfigs]
