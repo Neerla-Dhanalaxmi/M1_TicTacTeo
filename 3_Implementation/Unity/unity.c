@@ -2,7 +2,6 @@
  * @file unity.c
  * @author Neerla Dhanalaxmi
  * @version 0.1
- * @date 2021-07-13
  * 
  * @copyright Copyright (c) 2021
  * 
