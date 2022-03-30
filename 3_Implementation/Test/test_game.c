@@ -1,6 +1,6 @@
 /**
  * @file test_game.c
- * @author chandana s 
+ * @author Neerla Dhanalaxmi
  * @version 0.1
  * @date 2021-07-13
  * 
