@@ -79,7 +79,7 @@ void UnityMessage(const char* msg, const UNITY_LINE_TYPE line)
 3_Implementation/Unity/unity_internals.h:475:0: information: Skipping configuration 'UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_TIME_TYPE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
     UNITY_TIME_TYPE CurrentTestStopTime;
 ^
-3_Implementation/src/project_main.c:23:10: style: The scope of the variable 'mark' can be reduced. [variableScope]
+3_Implementation/src/project_main.c:22:10: style: The scope of the variable 'mark' can be reduced. [variableScope]
     char mark;
          ^
 3_Implementation/Unity/unity.c:683:0: style: The function 'UnityAssertBits' is never used. [unusedFunction]
