@@ -22,7 +22,7 @@
 3_Implementation/Unity/unity.c:1757:28: style:inconclusive: Function 'UnityFail' argument 1 names different: declaration 'message' definition 'msg'. [funcArgNamesDifferent]
 void UnityFail(const char* msg, const UNITY_LINE_TYPE line)
                            ^
-3_Implementation/Unity/unity_internals.h:624:28: note: Function 'UnityFail' argument 1 names different: declaration 'message' definition 'msg'.
+3_Implementation/Unity/unity_internals.h:623:28: note: Function 'UnityFail' argument 1 names different: declaration 'message' definition 'msg'.
 void UnityFail(const char* message, const UNITY_LINE_TYPE line) UNITY_FUNCTION_ATTR(noreturn);
                            ^
 3_Implementation/Unity/unity.c:1757:28: note: Function 'UnityFail' argument 1 names different: declaration 'message' definition 'msg'.
@@ -31,7 +31,7 @@ void UnityFail(const char* msg, const UNITY_LINE_TYPE line)
 3_Implementation/Unity/unity.c:1794:30: style:inconclusive: Function 'UnityIgnore' argument 1 names different: declaration 'message' definition 'msg'. [funcArgNamesDifferent]
 void UnityIgnore(const char* msg, const UNITY_LINE_TYPE line)
                              ^
-3_Implementation/Unity/unity_internals.h:625:30: note: Function 'UnityIgnore' argument 1 names different: declaration 'message' definition 'msg'.
+3_Implementation/Unity/unity_internals.h:624:30: note: Function 'UnityIgnore' argument 1 names different: declaration 'message' definition 'msg'.
 void UnityIgnore(const char* message, const UNITY_LINE_TYPE line) UNITY_FUNCTION_ATTR(noreturn);
                              ^
 3_Implementation/Unity/unity.c:1794:30: note: Function 'UnityIgnore' argument 1 names different: declaration 'message' definition 'msg'.
@@ -40,7 +40,7 @@ void UnityIgnore(const char* msg, const UNITY_LINE_TYPE line)
 3_Implementation/Unity/unity.c:1810:31: style:inconclusive: Function 'UnityMessage' argument 1 names different: declaration 'message' definition 'msg'. [funcArgNamesDifferent]
 void UnityMessage(const char* msg, const UNITY_LINE_TYPE line)
                               ^
-3_Implementation/Unity/unity_internals.h:626:31: note: Function 'UnityMessage' argument 1 names different: declaration 'message' definition 'msg'.
+3_Implementation/Unity/unity_internals.h:625:31: note: Function 'UnityMessage' argument 1 names different: declaration 'message' definition 'msg'.
 void UnityMessage(const char* message, const UNITY_LINE_TYPE line);
                               ^
 3_Implementation/Unity/unity.c:1810:31: note: Function 'UnityMessage' argument 1 names different: declaration 'message' definition 'msg'.
@@ -58,10 +58,10 @@ void UnityMessage(const char* msg, const UNITY_LINE_TYPE line)
 3_Implementation/Unity/unity.c:556:0: information: Skipping configuration 'UNITY_CLOCK_MS;UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_PRINT_EXEC_TIME' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
     UNITY_PRINT_EXEC_TIME();
 ^
-3_Implementation/Unity/unity_internals.h:475:0: information: Skipping configuration 'UNITY_CLOCK_MS;UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_TIME_TYPE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+3_Implementation/Unity/unity_internals.h:474:0: information: Skipping configuration 'UNITY_CLOCK_MS;UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_TIME_TYPE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
     UNITY_TIME_TYPE CurrentTestStartTime;
 ^
-3_Implementation/Unity/unity_internals.h:476:0: information: Skipping configuration 'UNITY_CLOCK_MS;UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_TIME_TYPE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+3_Implementation/Unity/unity_internals.h:475:0: information: Skipping configuration 'UNITY_CLOCK_MS;UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_TIME_TYPE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
     UNITY_TIME_TYPE CurrentTestStopTime;
 ^
 3_Implementation/Unity/unity.c:1832:0: information: Skipping configuration 'UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_EXEC_TIME_START' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
@@ -73,10 +73,10 @@ void UnityMessage(const char* msg, const UNITY_LINE_TYPE line)
 3_Implementation/Unity/unity.c:556:0: information: Skipping configuration 'UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_PRINT_EXEC_TIME' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
     UNITY_PRINT_EXEC_TIME();
 ^
-3_Implementation/Unity/unity_internals.h:475:0: information: Skipping configuration 'UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_TIME_TYPE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+3_Implementation/Unity/unity_internals.h:474:0: information: Skipping configuration 'UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_TIME_TYPE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
     UNITY_TIME_TYPE CurrentTestStartTime;
 ^
-3_Implementation/Unity/unity_internals.h:476:0: information: Skipping configuration 'UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_TIME_TYPE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+3_Implementation/Unity/unity_internals.h:475:0: information: Skipping configuration 'UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_TIME_TYPE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
     UNITY_TIME_TYPE CurrentTestStopTime;
 ^
 3_Implementation/src/project_main.c:23:10: style: The scope of the variable 'mark' can be reduced. [variableScope]
